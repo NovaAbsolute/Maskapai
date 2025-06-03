@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hasil Pencarian Penerbangan</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <img src="assset/SkyWay (2).png" alt="Logo" />
+      </div>
+      <div class="navbar" id="navbar-menu">
+        <a href="index.html">Home</a>
+        <a href="index.html#destinations-section">Liburan</a>
+        <a href="index.html#search-form">Tiket</a>
+        <a href="index.html#about-container">About Us</a>
+      </div>
+      <div class="cta-auth">
+        <a href="login&daftar.html" class="login">Login</a>
+        <a href="login&daftar.html" class="daftar">Daftar</a>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="container">
+        <h1 class="page-title">Hasil Pencarian Penerbangan</h1>
+
+        <div class="flight-results">
+          <div class="flight-card">
+            <div class="flight-header">
+              <h3 class="airline-name">SkyWays Airlines</h3>
+              <div class="flight-info">
+                <span class="flight-code">Kode: GA123</span>
+                <span class="flight-date">Tanggal: 2025-06-02</span>
+                <span class="flight-time">Waktu: 09:00 - 11:00</span>
+              </div>
+            </div>
+            <div class="flight-details">
+              <div class="route">
+                <h4>Asal: Jakarta (CGK) ➤ Tujuan: Surabaya (SUB)</h4>
+                <p class="seat-info">Kursi Tersedia: 5</p>
+              </div>
+              <div class="price-section">
+                <div class="price">Rp. 800.000</div>
+                <button type="submit" class="btn-book" onclick="window.location.href='payment.html'">Bayar Sekarang</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="flight-card">
+            <div class="flight-header">
+              <h3 class="airline-name">SkyWays Airlines</h3>
+              <div class="flight-info">
+                <span class="flight-code">Kode: GA123</span>
+                <span class="flight-date">Tanggal: 2025-06-02</span>
+                <span class="flight-time">Waktu: 09:00 - 11:00</span>
+              </div>
+            </div>
+            <div class="flight-details">
+              <div class="route">
+                <h4>Asal: Jakarta (CGK) ➤ Tujuan: Surabaya (SUB)</h4>
+                <p class="seat-info">Kursi Tersedia: 3</p>
+              </div>
+              <div class="price-section">
+                <div class="price">Rp. 800.000</div>
+                <button type="submit" class="btn-book" onclick="window.location.href='payment.html'">Bayar Sekarang</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
